@@ -15,7 +15,7 @@ Completed as part of my IT System Administration coursework at Ensign College.
 | Stage | Description |
 |-------|-------------|
 | ✅ 1 | **Azure VM Deployed** (Windows Server 2025, RDP enabled, auto-shutdown configured) |
-| ✅ 2 | **Promoted to Domain Controller** (`nsign.corp` created, verified login as domain admin) |
+| ✅ 2 | **Promoted to Domain Controller** (`ensign.corp` created, verified login as domain admin) |
 | ✅ 3 | **Configured Active Directory** (Users + OUs, NTFS folder structure, permission mapping) |
 | ✅ 4 | **Secured and Automated** (Firewall rules on port 50000, scheduled daily updates via Task Scheduler) |
 
