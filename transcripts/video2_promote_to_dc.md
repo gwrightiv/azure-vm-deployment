@@ -6,7 +6,7 @@ This video walks through the process of promoting a previously deployed Azure Wi
 
 ## 🎬 Summary
 
-Starting from a cleanly deployed Windows Server 2025 instance, I installed the AD DS role, promoted the VM to a Domain Controller, and configured the domain name `nsign.corp`. I verified successful promotion and domain login using both graphical and command-line tools.
+Starting from a cleanly deployed Windows Server 2025 instance, I installed the AD DS role, promoted the VM to a Domain Controller, and configured the domain name `ensign.corp`. I verified successful promotion and domain login using both graphical and command-line tools.
 
 ---
 
@@ -16,13 +16,13 @@ Starting from a cleanly deployed Windows Server 2025 instance, I installed the A
 2. Selected **Active Directory Domain Services (AD DS)**
 3. After installation, used the **Promotion Wizard** to:
    - Create a **new forest**
-   - Name the domain: `nsign.corp`
+   - Name the domain: `ensign.corp`
    - Set a secure **DSRM password** (stored in an encrypted password vault)
 4. Restarted the server after promotion
 5. Opened **Active Directory Users and Computers** to verify the domain was active
-6. Logged in via **Remote Desktop** as a domain admin (`nsign\wright235`)
+6. Logged in via **Remote Desktop** as a domain admin (`ensign\wright235`)
 7. Verified domain login via:
-   - `whoami` in Command Prompt (`nsign\wright235`)
+   - `whoami` in Command Prompt (`ensign\wright235`)
    - Task Manager → Users tab
 
 ---
@@ -38,7 +38,7 @@ Starting from a cleanly deployed Windows Server 2025 instance, I installed the A
 
 ## 🧩 Challenges Faced
 
-- Small typo in the domain name during initial testing (I almost typed `ensign.core` instead of `nsign.corp`)
+- Small typo in the domain name during initial testing (I almost typed `ensign.core` instead of `ensign.corp`)
 - Getting used to navigating between tools like AD DS, ADUC, and Server Manager
 
 ---
