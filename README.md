@@ -32,7 +32,7 @@ Each stage includes a narrated video demo and a transcript.
 
 Key setup and configuration visuals:
 
-- VM Overview (Azure Portal)
+- [VM Overview (Azure Portal)](screenshots/azure-vm-overview.png)
 - Server Properties (Windows Server 2025)
 - Active Directory Domain Services Installed
 - OU Structure in ADUC
