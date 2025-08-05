@@ -1,5 +1,7 @@
 # Azure Windows Server Lab (Multi-Stage SysAdmin Project)
 
+This project replicates a real-world scenario where an IT admin deploys and hardens a cloud-based domain controller in Microsoft Azure. It shows my ability to manage an enterprise Windows Server environment from provisioning through automation and security, using Active Directory, PowerShell, NTFS, and firewall rules. It also highlights my cost-conscious thinking with features like auto-shutdown and scripted updates.
+
 This repo documents a four-part iterative lab project I completed using Microsoft Azure and Windows Server 2025. It follows the full lifecycle of deploying, configuring, and securing a cloud-hosted domain controller — covering core sysadmin responsibilities including Active Directory setup, user/group management, firewall rules, and scheduled automation.
 
 Completed as part of my IT System Administration coursework at Ensign College.
