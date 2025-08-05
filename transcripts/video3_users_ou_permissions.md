@@ -39,7 +39,9 @@ I set default passwords, enabled the accounts, and confirmed each user appeared 
 
 ### 3. Created Folder Structure
 On the C: drive, I created:
-    C:\PromisedLand
+
+```
+C:\PromisedLand
     ├── Accounting
     ├── Auditors
     ├── HR
@@ -47,7 +49,7 @@ On the C: drive, I created:
     ├── Management
     ├── Research
     └── Stakeholders
-
+```
 
 Each folder was matched to an OU for assignment of permissions.
 
