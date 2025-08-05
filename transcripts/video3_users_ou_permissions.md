@@ -23,7 +23,7 @@ In *Active Directory Users and Computers*, I created the following OUs:
 - Accounting
 - Auditors
 
-These were created under the domain `nsign.corp`.
+These were created under the domain `ensign.corp`.
 
 ### 2. Created 14 User Accounts
 I added users directly into their proper OUs using the “New → User” option:
